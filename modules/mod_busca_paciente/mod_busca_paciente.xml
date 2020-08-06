@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.9.0" client="site" method="upgrade">
+    <name>Busca do Paciente</name>
+    <author>Marcelo Ferreira Mota</author>
+    <version>1.0.0</version>
+    <description>Modulo responsável pela busca dos cadastros dos pacientes</description>
+    <files>
+        <filename>mod_busca_paciente.xml</filename>
+        <filename module="mod_busca_paciente">mod_busca_paciente.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>tmpl/helper.php</filename>
+
+    </files>
+    <config>
+    </config>
+</extension>

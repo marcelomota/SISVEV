@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.9.0" client="site" method="upgrade">
+    <name>Cadastro de Prontuário Sinasc</name>
+    <author>Marcelo Ferreira Mota</author>
+    <version>1.0.0</version>
+    <description>Modulo responsável pelo cadastro do prontuário SINASC</description>
+    <files>
+        <filename>mod_sinasc.xml</filename>
+        <filename module="mod_sinasc">mod_sinasc.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+
+    </files>
+    <config>
+    </config>
+</extension>
