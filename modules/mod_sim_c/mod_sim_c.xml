@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.9.0" client="site" method="upgrade">
+    <name>Cadastro no módulo do SIM</name>
+    <author>Marcelo Ferreira Mota</author>
+    <version>1.0.0</version>
+    <description>Modulo responsável pelo cadastro da declaração de óbito</description>
+    <files>
+        <filename>mod_sim_c.xml</filename>
+        <filename module="mod_sim_c">mod_sim_c.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>tmpl/css/materialize.css</filename>
+        <filename>tmpl/css/materialize.min.css</filename>
+        <filename>tmpl/js/materialize.js</filename>
+        <filename>tmpl/js/materialize.min.js</filename>
+
+    </files>
+    <config>
+    </config>
+</extension>
